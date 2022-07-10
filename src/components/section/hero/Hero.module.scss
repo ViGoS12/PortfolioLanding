@@ -1,0 +1,48 @@
+@import '../../../scss/variables.scss';
+
+.hero {
+  background: url('../../../assets/png/hero_bg.png');
+  background-position: center;
+  background-size: cover;
+  max-height: 768px;
+
+  &__container {
+    width: 1107px;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  &__gradient {
+    background: rgba(198, 108, 73, 0.3);
+    height: 768px;
+  }
+
+  &__title {
+    color: $white;
+    margin-top: 145px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    margin-bottom: 26px;
+  }
+
+  &__subtitle {
+    color: $white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 106px;
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: $white;
+    margin-bottom: 240px;
+  }
+}

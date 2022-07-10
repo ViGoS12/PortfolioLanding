@@ -1,0 +1,20 @@
+@import '../../../scss/variables.scss';
+
+.header {
+  padding-top: 93px;
+  display: flex;
+  justify-content: space-between;
+
+  &__list {
+    display: flex;
+  }
+
+  &__logo {
+    color: $white;
+  }
+
+  &__item {
+    color: $white;
+    margin-right: 59px;
+  }
+}
