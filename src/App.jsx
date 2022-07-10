@@ -1,10 +1,11 @@
+import About from './components/section/about'
 import Hero from './components/section/hero'
-import app from './scss/app.scss'
 
 function App() {
   return (
     <div>
       <Hero />
+      <About />
     </div>
   )
 }

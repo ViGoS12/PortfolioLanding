@@ -11,10 +11,12 @@
 
   &__logo {
     color: $white;
+    cursor: pointer;
   }
 
   &__item {
     color: $white;
     margin-right: 59px;
+    cursor: pointer;
   }
 }
