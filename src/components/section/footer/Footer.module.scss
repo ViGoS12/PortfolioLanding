@@ -1,0 +1,36 @@
+@import '../../../scss/variables.scss';
+
+.footer {
+  background: $white;
+  height: 528px;
+  padding-top: 93px;
+
+  &__container {
+    width: 1107px;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 51px;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 14px;
+    margin-right: 308px;
+    cursor: pointer;
+  }
+}
